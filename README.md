@@ -1,27 +1,69 @@
-# CmpDeepDive
+# 📚 Angular Deep Dive – Projet Avancé (Formation Udemy)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
+Ce projet a été réalisé dans le cadre de la formation **"Angular - The Complete Guide (2025 Edition)"** dispensée par Maximilian Schwarzmüller sur [Udemy](https://www.udemy.com/course/the-complete-guide-to-angular-2/?couponCode=KEEPLEARNING).
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🎯 Objectif
 
-## Code scaffolding
+Approfondir les compétences Angular à travers un projet complet intégrant plusieurs fonctionnalités avancées. Ce projet permet de consolider les fondamentaux Angular tout en explorant les bonnes pratiques de structuration, modularisation et communication entre composants.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🧠 Concepts Angular abordés
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Ce projet met en pratique les concepts suivants :
 
-## Running unit tests
+- **Composants personnalisés** pour structurer l’interface
+- **Data Binding** :
+  - `Property Binding` pour transmettre des données vers le template
+  - `Event Binding` pour capturer les actions de l’utilisateur
+  - `Two-Way Binding` avec `[(ngModel)]` pour synchroniser les formulaires
+- **Communication entre composants** :
+  - `@Input()` pour la réception de données
+  - `@Output()` avec `EventEmitter` pour émettre des événements
+- **Directives structurelles** :
+  - `*ngIf`, `*ngFor` pour l’affichage conditionnel et les listes dynamiques
+- **Utilisation de modèles TypeScript** pour organiser les données
+- **Séparation logique / affichage** : logique métier dans les composants principaux, affichage délégué à des sous-composants
+- **Utilisation d’Angular CLI** pour le scaffolding, la compilation et la gestion de modules
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 🖼️ Aperçu
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![Aperçu du projet](public/screenshot.png)
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🧰 Technologies
+
+- Angular 18
+- TypeScript
+- HTML5 / CSS3
+- Angular CLI
+
+---
+
+## 🚧 Statut
+
+✅ Projet terminé
+
+---
+
+## 🧭 Formation en cours
+
+Poursuite de la formation avec les chapitres suivants :
+
+- Services & Injection de dépendances
+- Routing (navigation entre vues)
+- Formulaires avancés (template-driven & reactive)
+- Appels HTTP et intégration avec un backend
+- Gestion d’état avec NgRx ou Angular Signals
+
+---
+
+## 🔗 Liens utiles
+
+- [👉 Formation Udemy](https://www.udemy.com/course/the-complete-guide-to-angular-2/)
+- [👤 Mon profil LinkedIn](https://www.linkedin.com/in/kevin-maldonado-a17864295)
